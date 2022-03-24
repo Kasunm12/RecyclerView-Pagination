@@ -23,7 +23,7 @@ public class MainAdapter extends RecyclerView.Adapter<MainAdapter.ViewHolder> {
     private Activity activity;
 
     //create constructor
-    public MainAdapter(Activity activity,ArrayList<MainData> dataArrayList){
+    public MainAdapter(MainActivity activity, ArrayList<MainData> dataArrayList){
         this.activity= activity;
         this.dataArrayList=dataArrayList;
     }
